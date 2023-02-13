@@ -1,0 +1,282 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: FiraGo-Regular;
+    src: url(FiraGO-Regular.woff);
+}
+body{
+    background: #FFFFFF;
+        display: flex;
+       
+        
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0px;
+    margin: 0px;
+}
+        
+        .a{ padding: 35px 108px 90px 109px;
+            
+                width: 1440px;
+                height: 1024px;
+                background: #FFFFFF;
+                
+  
+  
+    }
+      
+  
+
+  .search {
+    font-family: FiraGo-Regular;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    height: 24px;
+width: 148px;
+left: 109px;
+top: 35px;
+border-radius: nullpx;
+
+
+    color: #000000;
+ }
+ .userlist {  font-family: FiraGo-Regular;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 29px;
+   color: #000000;
+   padding-top:111px;
+   font-weight: bold;}
+
+   #table1  {
+    
+    width: 1223px;
+    text-align: left; 
+    font-family: FiraGo-Regular;
+        
+    border-spacing: 0px; 
+    border: 1px solid #EDEDED;}
+   
+   
+
+#table1 tbody {
+    background-color:  #FAFAFA;
+    height: 84px;
+    border: 1px solid #EDEDED;
+}
+
+#table1 th {
+    
+    height: 65px;
+    font-family: FiraGo-Regular;
+    font-style: normal;
+    font-weight: lighter;
+    
+    
+    
+}
+#table1 th:first-child 
+{
+    padding-left: 25px;
+}
+   
+    .btn1{
+        background: #FFDD04;
+        border-radius: 10px;
+        width: 141px;
+        height: 50px;
+        font-family: FiraGo-Regular;
+         font-style: normal;
+        border: none;
+        font-weight: bold;
+        margin-right: 39px;
+
+    
+     }
+    .btn{height: 40px;
+        width: 141px;
+        left: 1191px;
+        top: 300px;
+        float:right;
+         
+         font-family: FiraGo-Regular;
+         font-style: normal;
+         font-weight: bold;
+border-radius: 10px;
+border:  #FFDD04;
+background: #FFDD04;
+border: 1px solid transparent;
+
+         }
+
+         
+            .btnnn {
+                background: #FFDD04;
+            border-radius: 10px;
+            border: 1px solid #FFDD04;
+            width: 93px;
+            height: 33px; 
+            font-family: FiraGo-Regular;
+            font-style: normal;
+            
+            font-weight: bold;
+            margin-right: 6px;
+            } 
+            .btnn {
+                background: #FF8271;
+                border-radius: 10px;
+                border: 1px solid #FF8271;
+                width: 93px;
+                height: 33px;
+                
+                font-family: FiraGo-Regular;
+                font-style: normal;
+                font-weight: bold;}
+
+                div {
+                    display: block;
+                }
+
+                h2{  font-family: FiraGo-Regular;
+                    display: flex;
+                    align-items: center;
+                   justify-content: space-between;
+                   margin-top: 76px;
+                
+                }
+
+
+
+    
+.tbody-list{
+        padding-left: 48px;
+
+     }
+    .input-1{
+        width: 311px;
+       
+        border: 1px solid #ECECEC;
+        border-radius: 10px;
+        background: #FFFFFF;
+        border: 1px solid #ECECEC;
+        border-radius: 10px;
+        margin-right:22px;
+        margin-top:15px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        padding-left: 24px;
+    }
+  
+.input-2{
+  
+
+    
+    
+    width: 242px;
+  
+    margin-right: 50px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+    padding-left: 24px;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;}
+.input-3{
+    width: 193px;
+    padding-top: 16px;
+    margin-right: 79px;
+    padding-bottom: 15px;
+    padding-left: 24px;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+
+}
+#table3{
+    font-family: FiraGo-Regular;
+    font-style: normal;
+
+    border-collapse: collapse;
+    width: 100%;
+    background: #FFFFFF;
+            width: 1223px;
+            text-align: left; 
+           
+            border-spacing: 0px; 
+            border: 1px solid #EDEDED;
+}
+#table3 thead{
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    font-family: FiraGo-Regular;
+    font-style: normal;
+    height: 65px;
+    
+    
+}
+
+
+
+#table3 td{
+   
+
+width: 1223px;
+height: 65px;
+padding-left: 20px;
+
+background: #FAFAFA;
+
+}
+#table3 th{
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 25px;
+    padding-top:23px;
+    padding-bottom: 23px;
+    margin-bottom: 19px;
+
+}
+#table3 tr{
+    border: 1px solid #EDEDED;
+}
+.userlist{font-family: FiraGo-Regular;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    padding-top: 0px;}
+
+   
+
+
+  
+        
+        
+      
+
+ input {
+
+            height: 50px;
+            padding-top: 17px;
+            padding-bottom: 17px;
+            background: #FFFFFF;
+            border: 1px solid #ECECEC;
+            border-radius: 10px;
+}
+
+
+
+
